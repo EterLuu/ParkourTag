@@ -1,0 +1,14 @@
+name: ParkourTag
+version: '${version}'
+main: ink.ziip.hammer.parkourtag.ParkourTag
+api-version: '1.19'
+depend:
+  - ProtocolLib
+  - PlaceholderAPI
+softdepend:
+  - PhantomWorlds
+  - Teams
+commands:
+  pkt:
+    description: Core command.
+    usage: /<command>
